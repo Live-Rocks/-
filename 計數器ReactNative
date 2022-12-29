@@ -6,7 +6,8 @@ export default function App() {                                    //版面樣�
   const [count, setCount] = useState(0)
   return (
     <View style={styles.container}>
-      <Text>計數器{count}</Text>
+      <Text>計數器</Text>
+      <Text>{count}</Text>
 
       <Button
         title='+'
